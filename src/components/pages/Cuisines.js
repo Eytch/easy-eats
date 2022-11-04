@@ -10,7 +10,7 @@ export default function Cuisines() {
   const [main, setMain] = useState([]);
   useEffect(() => {
     const getMain = async () => {
-      const check = localStorage.getItem('randoms');
+      const check = localStorage.getItem('main');
       if (check) {
         setMain(JSON.parse(check));
       } else {
@@ -20,7 +20,7 @@ export default function Cuisines() {
         );
         const data = await res.json();
 
-        localStorage.setItem('randoms', JSON.stringify(data.recipes));
+        localStorage.setItem('main', JSON.stringify(data.recipes));
         setMain(data.recipes);
       }
     };
@@ -35,7 +35,7 @@ export default function Cuisines() {
         <CuisineList />
       </GridContainer>
 
-      <MealsGrid title={'Diets'} recipes={main} />
+      <MealsGrid title={'Italian Meals'} recipes={main} />
     </Container>
   );
 }
