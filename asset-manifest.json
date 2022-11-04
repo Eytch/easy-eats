@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/easy-eats/static/css/main.80ae4491.css",
-    "main.js": "/easy-eats/static/js/main.795fc869.js",
+    "main.js": "/easy-eats/static/js/main.d363a8b2.js",
     "static/media/HeaderImg.svg": "/easy-eats/static/media/HeaderImg.09835a282ae4b562663d0c05b19924b1.svg",
     "static/media/no-image.png": "/easy-eats/static/media/no-image.d09e503817275d6b9eb4.png",
     "index.html": "/easy-eats/index.html",
     "main.80ae4491.css.map": "/easy-eats/static/css/main.80ae4491.css.map",
-    "main.795fc869.js.map": "/easy-eats/static/js/main.795fc869.js.map"
+    "main.d363a8b2.js.map": "/easy-eats/static/js/main.d363a8b2.js.map"
   },
   "entrypoints": [
     "static/css/main.80ae4491.css",
-    "static/js/main.795fc869.js"
+    "static/js/main.d363a8b2.js"
   ]
 }
